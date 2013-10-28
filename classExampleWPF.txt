@@ -1,0 +1,11 @@
+Scripting - Interpreted language
+
+Programing - Compiled language
+
+DOM - Document Object Model
+
+HTML Script tag - Has arguments, basic structure <script_src""></script>
+
+Commenting in HTML <!-- Information -->
+
+To see js console in Chrome view > Developer > JavaScript Console
