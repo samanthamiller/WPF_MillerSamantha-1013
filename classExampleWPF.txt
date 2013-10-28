@@ -25,3 +25,8 @@ If you use age = "7" as a string and try to add it to yourAge = 37 you will get 
 parseInt(age) + Number(yourAge) + yourAge*1);
 They cast the value to the data type you want it to be
 Can only use parseInt() if changing a string to a number 
+
+\t stands for tab it will put information farther out
+\n stands for new line, it will start a new line
+
+prompt(); will ask for user input
