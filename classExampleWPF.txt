@@ -30,3 +30,4 @@ Can only use parseInt() if changing a string to a number
 \n stands for new line, it will start a new line
 
 prompt(); will ask for user input
+prompts always bring back strings, 100% of the time so parseInt(), Number() or *1 may be needed.

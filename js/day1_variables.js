@@ -3,9 +3,12 @@
 
 var name;
 name = prompt("What is your name?");
-var age = 19; // Number example
+var age = prompt(name + " how old are you?"); // Number example
 var pet = "Stella";
 var petAge = "6";
+
+console.log(petAge*1+ age*1);
+
 console.log(age);
 age = age + 1;
 console.log(name);
