@@ -45,6 +45,51 @@ var average = total/groceryTotals.length;
 console.log("You have spent a total of $" +total+ " on groceries over 5 weeks. That is an average of $" +average+ " per week.");
 
 
+// Discounts
+// Given 1 - Original Price
+var originalPrice = 469;
+// Given 2 - Discount percentage 
+var discountPercent = 38/100;
+// Given 3 - Description of item 
+var description = "TV";
+// Given 4 - Sales tax percentage 
+var salesTax = .08;
+
+// Result variable 1 - Price of item with tax
+var withTax =  ((originalPrice - (originalPrice*discountPercent)))* salesTax  + (originalPrice - (originalPrice*discountPercent)) ;
+// Result variable 2 - Price of the item without tax
+var withoutTax = (originalPrice - (originalPrice*discountPercent));
+
+// Result Print
+console.log("Your " +description+ " was originally $" +originalPrice+ " but after a " +discountPercent+ "% discount, it is now $" +withoutTax+ " without tax, and $" +withTax+ " with tax.");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
