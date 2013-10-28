@@ -1,10 +1,10 @@
 Web Program Fundamentals - Class 1
 
-Scripting - Interpreted language
+Scripting - Interpreted language.
 
-Programing - Compiled language
+Programing - Compiled language.
 
-DOM - Document Object Model
+DOM - Document Object Model.
 
 HTML Script tag - Has arguments, basic structure <script src""></script>
 
@@ -14,8 +14,14 @@ To see js console in Chrome View > Developer > JavaScript Console
 
 Comments for js // One line /* Multi line */
 
-Variables in js strings, arrays, numbers, integers, dates
+Variables in js strings, arrays, numbers, integers, dates.
 
 To trace to the console use console.log();
 
-Adding two strings will put them together, numbers will be added ie."Fish"+"Lips" = Fish Lips,  3 + 5 = 8
+Adding two strings will put them together, numbers will be added ie. "Fish"+"Lips" = Fish Lips,  3 + 5 = 8
+adding a string and a number will put them together ie. "Samantha Miller" + 19 = Samantha Miller 19.
+
+If you use age = "7" as a string and try to add it to yourAge = 37 you will get 737 unless you use one of the following
+parseInt(age) + Number(yourAge) + yourAge*1);
+They cast the value to the data type you want it to be
+Can only use parseInt() if changing a string to a number 
