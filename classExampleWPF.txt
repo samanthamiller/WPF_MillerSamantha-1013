@@ -4,8 +4,14 @@ Programing - Compiled language
 
 DOM - Document Object Model
 
-HTML Script tag - Has arguments, basic structure <script_src""></script>
+HTML Script tag - Has arguments, basic structure <script src""></script>
 
 Commenting in HTML <!-- Information -->
 
-To see js console in Chrome view > Developer > JavaScript Console
+To see js console in Chrome View > Developer > JavaScript Console
+
+Comments for js // One line /* Multi line */
+
+Variables in js strings, arrays, numbers, integers, dates
+
+To trace to the console use console.log();
