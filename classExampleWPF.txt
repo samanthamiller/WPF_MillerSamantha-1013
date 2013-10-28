@@ -1,3 +1,5 @@
+Web Program Fundamentals - Class 1
+
 Scripting - Interpreted language
 
 Programing - Compiled language
@@ -15,3 +17,5 @@ Comments for js // One line /* Multi line */
 Variables in js strings, arrays, numbers, integers, dates
 
 To trace to the console use console.log();
+
+Adding two strings will put them together, numbers will be added ie."Fish"+"Lips" = Fish Lips,  3 + 5 = 8
