@@ -2,5 +2,5 @@
 /*  Multi line comment. */
 
 var name;
-name = "Samantha";
+name = "Samantha Miller";
 console.log(name);
