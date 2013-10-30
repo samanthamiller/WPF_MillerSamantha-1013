@@ -25,3 +25,6 @@ var sneakerLift = 2;
 if(kidheight+sneakerLift >minHeight){
 	console.log("You can ride the coaster");
 }
+
+
+// Following along with if and else Screencast
