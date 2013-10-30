@@ -47,7 +47,15 @@ if(iPhonePrice < budget || wonLottery){
 	console.log("No phone for you!");
 }
 
-	
+// Following along with Ternary Operators
+var gpa = 48;
+(gpa>2.0) ? console.log("You can graduate!") :	console.log("GPA too low!");
+
+var age = 6;
+var book;
+// If the child is under 10, they get green eggs and ham, otherwise they get the time machine
+book = (age <10) ? "Green Eggs and Ham" : "The Time Machine";
+console.log(book);
 
 
 
