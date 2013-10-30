@@ -18,3 +18,10 @@ if(kidHeight > minHeight)
 {
 	console.log("You can ride the coaster!");	
 }
+
+
+// Following along with Condition Expression Screencast
+var sneakerLift = 2;
+if(kidheight+sneakerLift >minHeight){
+	console.log("You can ride the coaster");
+}
