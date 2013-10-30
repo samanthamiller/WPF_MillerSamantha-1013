@@ -35,6 +35,6 @@ else{
 	}
 	
 	
-// Following along with Relational Operators
+// Following along with Logical operators screencast
 	
 
