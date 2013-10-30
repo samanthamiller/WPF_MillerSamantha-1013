@@ -13,7 +13,8 @@ console.log("What comes after?");
 // Following along with Relational Expression Screencast
 // If the kid is over 48 inches in height console "You can ride the coaster"
 var kidHeight = 30;
-if(kidHeight > 48)
+var minHeight = 48;
+if(kidHeight > minHeight)
 {
 	console.log("You can ride the coaster!");	
 }
