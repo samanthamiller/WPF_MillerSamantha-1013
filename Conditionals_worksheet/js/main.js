@@ -30,4 +30,8 @@ if(userEnteredUsername == correctUsername && userEnteredPassword == correctPassw
 	console.log("Welcome"+correctUsername+"!");
 }else if(userEnteredUsername != correctUsername){
 	console.log("Sorry the user name "+userEnteredUsername+" does not match our records.");
+}else if(userEnteredPassword != correctPassword){
+	console.log("Sorry the password entered does not match our records.");
+}else{
+	console.log("Sorry none of the information you entered matches our records.");
 }
