@@ -16,3 +16,18 @@ if(canTravel > 200){
 	console.log("You only have " +gasInTank+ " gallons of gas in your tank, better get gas now while you can!");
 }
 
+// Check the login - Make sure the user has the correct username and password. If the username doesn’t match then a specific message for that should be printed to the console. If the password doesn’t match a message should appear for that, etc. Only one error message should appear.
+// Given 1 - Username entered by user. 
+var userEnteredUsername = "FishLips";
+// Given 2 - Password entered by user.
+var userEnteredPassword = "fluffykitty";
+// Given 3 - Correct username.
+var correctUsername = "FishLips";
+// Given 4 - Correct password.
+var correctPassword = "furrykitty";
+// Result variable and result console.log
+if(userEnteredUsername == correctUsername && userEnteredPassword == correctPassword){
+	console.log("Welcome"+correctUsername+"!");
+}else if(userEnteredUsername != correctUsername){
+	console.log("Sorry the user name "+userEnteredUsername+" does not match our records.");
+}
